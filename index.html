@@ -11,23 +11,37 @@
 </head>
 <body>
     <div class="login_background">
-        <div class="logform">
-            <form class="login" action="index.html" method="post">
-                <h1>Welcome!</h1>
-                <p>Already have an account?</p>
-                <div class="input_block">
-                    <label for="username">Email or Username</label>
-                    <input type="text" id="username" name="username" placeholder="Username">
-                </div>
-                <div class="input_block">
-                    <label for="password">Password</label>
-                    <input type="password" id="password" name="password" placeholder="Password">
-                </div>
-                <div>
-                    <button type="submit">Log in</button>
-                </div>
-            </form>
-        </div>
-    </div>
+        <div class="logform"></div>
+            <div class="signinform">
+                <form class="Signin" action="index.html" method="post">
+                    <div class="description">
+                        <h1>Welcome!</h1>
+                        <p>Already have an account?</p>
+                    </div>
+                    <div class="input_block">
+                        <label for="username" class="input_label">Email or Username</label>
+                        <input id="username" class="login_input username" type="text" name="username"  spellcheck="true" placeholder="Username">
+                    </div>
+                    <div class="input_block">
+                        <label for="password" class="input_label">Password</label>
+                        <input id="password" class="login_input password" type="password" name="password" placeholder="Password">
+                    </div>
+                    <div class="input_block">
+                        <input id="check" type="checkbox" name="keeplogindata" value="keep" checked>
+                        <label for="check" class="checkbox_label">Keep me Signed in</label>
+                    </div>
+                    <div class="input_block">
+                        <input type="submit" name="commit" value="Sign in">
+                    </div>
+                </form>
+            </div> <!-- signinform -->
+            <div class="signup">
+                <p class="CreateAccLink">
+                    Don't have an account?
+                    <a href="#" target="_self">Sign up now</a>
+                </p>
+            </div>
+        </div> <!-- logform -->
+    </div> <!-- login_background -->
 </body>
 </html>
