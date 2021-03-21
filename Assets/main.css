@@ -13,9 +13,11 @@
 }
 
 .login_background :is(.logform) {
+    max-height: 1vh;
     height: auto;
     width: auto;
     position: absolute;
+    padding: 40px 40px 10px 40px;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
@@ -27,7 +29,6 @@
 
 .signinform {
     text-align: center;
-    padding: 40px;
     font-family: 'Roboto', sans-serif;
     overflow: hidden;
 }
@@ -45,6 +46,7 @@
 .input_block {
     border: 1px solid rgb(255, 115, 0);
     border-radius: 5px;
+    padding: 10px 10px 8px;
     margin: 20px 0;
 }
 
@@ -52,6 +54,7 @@
     background: none;
     display: block;
     text-align: left;
+    outline: 0;
     border: none;
 }
 
