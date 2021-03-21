@@ -7,41 +7,75 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="Assets/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Document</title>
 </head>
 <body>
     <div class="login_background">
-        <div class="logform">
-            <div class="signinform">
-                <form class="Signin" action="index.html" method="post">
-                    <div class="description">
-                        <h1>Welcome!</h1>
-                        <p>Already have an account?</p>
+        <div class="fullform_area">
+            <div class="logform">
+                <div class="signinform_area">
+                    <div class="signinform">
+                        <form class="Signin" action="index.html" method="post">
+                            <div class="description">
+                                <h1>Welcome!</h1>
+                                <p>Already have an account?</p>
+                            </div>
+                            <div class="input_block">
+                                <label for="username" class="input_label">Email or Username</label>
+                                <input id="username" class="login_input username" type="text" name="username"  spellcheck="true" placeholder="Username">
+                            </div>
+                            <div class="input_block">
+                                <label for="password" class="input_label">Password</label>
+                                <input id="password" class="login_input password" type="password" name="password" placeholder="Password">
+                            </div>
+                            <div class="input_block">
+                                <input id="check" type="checkbox" name="keeplogindata" value="keep" checked>
+                                <label for="check" class="checkbox_label">Keep me Signed in</label>
+                            </div>
+                            <div class="input_block">
+                                <input type="submit" name="commit" value="Sign in">
+                            </div>
+                        </form>
                     </div>
-                    <div class="input_block">
-                        <label for="username" class="input_label">Email or Username</label>
-                        <input id="username" class="login_input username" type="text" name="username"  spellcheck="true" placeholder="Username">
+                </div> <!-- signinform -->
+                <div class="line_area">
+                    <div class="line">
+                        <h1>Or</h1>
                     </div>
-                    <div class="input_block">
-                        <label for="password" class="input_label">Password</label>
-                        <input id="password" class="login_input password" type="password" name="password" placeholder="Password">
+                </div>
+                <div class="othersignin_area">
+                    <div class="other_signin">
+                    <div class="facebook_signin">
+                        <a href="#">
+                            <i class="fa fa-facebook"></i>
+                            Continue With Facebook
+                        </a>
                     </div>
-                    <div class="input_block">
-                        <input id="check" type="checkbox" name="keeplogindata" value="keep" checked>
-                        <label for="check" class="checkbox_label">Keep me Signed in</label>
+                    <div class="apple_signin">
+                            <a href="#">
+                                <i class="fa fa-apple"></i>
+                                Continue With Apple
+                            </a>
+                        </div>
+                        <div class="google_signin">
+                            <a href="#">
+                                <i class="fa fa-google"></i>
+                                Continue With Google
+                            </a>
+                        </div> 
                     </div>
-                    <div class="input_block">
-                        <input type="submit" name="commit" value="Sign in">
+                </div>
+                <div class="signuplink_area">
+                    <div class="signup_link">
+                        <p class="CreateAccLink">
+                            Don't have an account?
+                            <a href="Signup.html" target="_self">Sign up now</a>
+                        </p>
                     </div>
-                </form>
-            </div> <!-- signinform -->
-            <div class="signup_link">
-                <p class="CreateAccLink">
-                    Don't have an account?
-                    <a href="Signup.html" target="_self">Sign up now</a>
-                </p>
-            </div>
-        </div> <!-- logform -->
+                </div>
+            </div> <!-- logform -->
+        </div>
     </div> <!-- login_background -->
 </body>
 </html>

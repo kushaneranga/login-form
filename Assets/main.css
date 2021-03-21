@@ -13,7 +13,6 @@
 }
 
 .login_background :is(.logform) {
-    max-height: 1vh;
     height: auto;
     width: auto;
     position: absolute;
