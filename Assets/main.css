@@ -19,10 +19,13 @@
     padding: 40px 40px 10px 40px;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
-    background: #141e309a;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #243b55ce, #141e309a);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #243b55ce, #141e309a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    transform: translate(-50%, -50%);
+    background: #141e309a;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #243b55ce, #141e309a);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #243b55ce, #141e309a);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     border-radius: 10px;
 }
 
@@ -49,7 +52,7 @@
     margin: 20px 0;
 }
 
-.input_block :is(input[type= "text"],input[type= "password"], .input_label) {
+.input_block :is(input[type="text"], input[type="password"], .input_label) {
     background: none;
     display: block;
     text-align: left;
@@ -64,4 +67,69 @@
 .logfinput_blockorm ::placeholder {
     color: rgb(187, 187, 187);
     font-size: 10px;
+}
+
+/*-----*/
+/*
+.fancy {
+    line-height: 0.5;
+    text-align: center;
+}
+
+.fancy span {
+    display: inline-block;
+    position: relative;  
+}
+
+.fancy span:before,
+.fancy span:after {
+    content: "";
+    position: absolute;
+    height: 5px;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    top: 0;
+    width: 600px;
+}
+
+.fancy span:before {
+    right: 100%;
+    margin-right: 15px;
+}
+
+.fancy span:after {
+    left: 100%;
+    margin-left: 15px;
+}
+*/
+
+.line {
+    line-height: 0.5;
+    text-align: center;
+}
+
+.line p {
+    display: inline-block;
+    position: relative;
+}
+
+.line p:before,
+.line p:after {
+    content: "";
+    position: absolute;
+    height: 5px;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    top: 0;
+    width: 600px;
+}
+
+.line p:before {
+    right: 100%;
+    margin-right: 15px;
+}
+
+.line p:after {
+    left: 100%;
+    margin-left: 15px;
 }
