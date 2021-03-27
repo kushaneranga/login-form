@@ -104,22 +104,23 @@
 */
 
 .line {
-    line-height: 0.5;
+    line-height: 1;
     text-align: center;
+    width: 100%;
 }
 
 .line p {
     display: inline-block;
     position: relative;
+    color:rgba(187, 187, 187, 0.877) !important;
 }
 
 .line p:before,
 .line p:after {
     content: "";
     position: absolute;
-    height: 5px;
-    border-bottom: 1px solid white;
-    border-top: 1px solid white;
+    height: 7px;
+    border-bottom: 1px solid rgba(187, 187, 187, 0.877);
     top: 0;
     width: 600px;
 }
