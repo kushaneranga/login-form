@@ -14,7 +14,7 @@
 
 .signinform_area, .line_area {
     width: 500px;
-    
+    overflow: hidden;
 } 
 
 .login_background :is(.logform) {
