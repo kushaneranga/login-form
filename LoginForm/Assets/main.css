@@ -12,6 +12,11 @@
     height: 100vh;
 }
 
+.signinform_area, .line_area {
+    width: 500px;
+    
+} 
+
 .login_background :is(.logform) {
     height: auto;
     width: auto;
@@ -106,7 +111,6 @@
 .line {
     line-height: 1;
     text-align: center;
-    width: 100%;
 }
 
 .line p {
@@ -122,7 +126,7 @@
     height: 7px;
     border-bottom: 1px solid rgba(187, 187, 187, 0.877);
     top: 0;
-    width: 600px;
+    width: 400px;
 }
 
 .line p:before {
