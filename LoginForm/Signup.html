@@ -4,36 +4,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Assets/main.css">
     <title>Document</title>
 </head>
 <body>
-    <form action="index.html" method="post">
-        <div>
-            <label for="fist_name">Fist name</label>
-            <input type="text" id="fist_name" name="name" placeholder="Fist name">
-            <label for="last_name">Last name</label>
-            <input type="text" id="last_name" name="name" placeholder="Last name">
+    <div class="login_background">
+        <div class="signinform_area">
+            <div class="logform">
+                <form action="index.html" method="post">
+                    <div>
+                        <label for="fist_name">Fist name</label>
+                        <input type="text" id="fist_name" name="name" placeholder="Fist name">
+                        <label for="last_name">Last name</label>
+                        <input type="text" id="last_name" name="name" placeholder="Last name">
+                    </div>
+                    <div>
+                        <label for="e_mail">email</label>
+                        <input type="email" id="e_mail" name="email" placeholder="example@gmail.com">
+                    </div>
+                    <div>
+                        <label for="password_f">Password</label>
+                        <input type="password" id="password_f" name="password" placeholder="Password">
+                    </div>
+                    <div>
+                        <label for="password_c">Confirm Password</label>
+                        <input type="password" id="password_c" name="password" placeholder="Confirm Password">
+                    </div>
+                    <div>
+                        <input type="checkbox" id="cb_tp" name="checkbox" value="accept" checked>
+                        <label for="cb_tp">I accept the Terms of Use & Privacy Policy</label>
+                    </div>
+                    <div>
+                        <input type="submit" value="Submit">
+                        <input type="reset">
+                    </div>
+                </form>
+            </div>
         </div>
-        <div>
-            <label for="e_mail">email</label>
-            <input type="email" id="e_mail" name="email" placeholder="example@gmail.com">
-        </div>
-        <div>
-            <label for="password_f">Password</label>
-            <input type="password" id="password_f" name="password" placeholder="Password">
-        </div>
-        <div>
-            <label for="password_c">Confirm Password</label>
-            <input type="password" id="password_c" name="password" placeholder="Confirm Password">
-        </div>
-        <div>
-            <input type="checkbox" id="cb_tp" name="checkbox" value="accept" checked>
-            <label for="cb_tp">I accept the Terms of Use & Privacy Policy</label>
-        </div>
-        <div>
-            <input type="submit" value="Submit">
-            <input type="reset">
-        </div>
-    </form>
+    </div>
 </body>
 </html>
