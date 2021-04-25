@@ -13,7 +13,7 @@
 }
 
 .signinform_area, .line_area {
-    width: 500px;
+    width: 250px;
     overflow: hidden;
 }
 
@@ -49,7 +49,8 @@
 }
 
 .input_block {
-    border: 1px solid rgb(255, 115, 0);
+    background-color: rgba(240, 255, 255, 0.527);
+    border: 1px solid rgb(17, 17, 17);
     border-radius: 5px;
     padding: 10px 10px 8px;
     margin: 20px 0;
