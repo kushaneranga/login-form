@@ -5,7 +5,7 @@
 }
 
 .login_background {
-    background-color: rgb(255,255,255);
+    background-image: url(Img/receptionists-5975962_1920.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -25,12 +25,9 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background: #141e309a;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #243b55ce, #141e309a);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #243b55ce, #141e309a);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #d3cce365;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #d3cce365, #d3cce3be);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #d3cce365, #d3cce3be); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
     border-radius: 10px;
     box-shadow: -1px 4px 28px 0px rgba(0,0,0,0.75);
 }
