@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+/*
+.login_background {
+    background-image: url(Img/receptionists-5975962_1920.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.signinform_area, .line_area {
+    width: 250px;
+    overflow: hidden;
+}
+
+.login_background :is(.logform) {
+    height: auto;
+    width: auto;
+    position: absolute;
+    padding: 40px 40px 10px 40px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #d3cce365;
+    background: -webkit-linear-gradient(to right, #d3cce365, #d3cce3be);
+    background: linear-gradient(to right, #d3cce365, #d3cce3be);   
+    border-radius: 10px;
+    box-shadow: -1px 4px 28px 0px rgba(0,0,0,0.75);
+}
+
+.signinform {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    overflow: hidden;
+}
+
+.description {
+    color: white;
+    font-weight: normal;
+}
+
+.description :is(h1) {
+    font-size: 2.5em;
+    letter-spacing: 2px;
+}
+
+.input_block {
+    background-color: rgba(240, 255, 255, 0.527);
+    border: 1px solid rgb(17, 17, 17);
+    border-radius: 5px;
+    padding: 10px 10px 8px;
+    margin: 20px 0;
+}
+
+.input_block :is(input[type="text"], input[type="password"], .input_label) {
+    background: none;
+    display: block;
+    text-align: left;
+    outline: 0;
+    border: none;
+}
+
+.input_block :is(input[type="checkbox"]) {
+    text-align: right;
+}
+
+.logfinput_blockorm ::placeholder {
+    color: rgb(187, 187, 187);
+    font-size: 10px;
+}
+For Develop*/
+
+/*-----*/
+/*
+.fancy {
+    line-height: 0.5;
+    text-align: center;
+}
+
+.fancy span {
+    display: inline-block;
+    position: relative;  
+}
+
+.fancy span:before,
+.fancy span:after {
+    content: "";
+    position: absolute;
+    height: 5px;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    top: 0;
+    width: 600px;
+}
+
+.fancy span:before {
+    right: 100%;
+    margin-right: 15px;
+}
+
+.fancy span:after {
+    left: 100%;
+    margin-left: 15px;
+}
+*/
+
+/*
+.line {
+    line-height: 1;
+    text-align: center;
+}
+
+.line p {
+    display: inline-block;
+    position: relative;
+    color:rgba(187, 187, 187, 0.877) !important;
+}
+
+.line p:before,
+.line p:after {
+    content: "";
+    position: absolute;
+    height: 7px;
+    border-bottom: 1px solid rgba(187, 187, 187, 0.877);
+    top: 0;
+    width: 400px;
+}
+
+.line p:before {
+    right: 100%;
+    margin-right: 15px;
+}
+
+.line p:after {
+    left: 100%;
+    margin-left: 15px;
+}
+For Develop */
