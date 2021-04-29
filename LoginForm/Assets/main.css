@@ -5,9 +5,5 @@
 }
 
 .login_background {
-    background-image: url(Img/receptionists-5975962_1920.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
     height: 100vh;
 }
